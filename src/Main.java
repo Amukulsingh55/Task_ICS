@@ -6,5 +6,7 @@ public class Main {
 
 
         ;
+        System.out.println("Welcom to infinite");
     }
+
 }
