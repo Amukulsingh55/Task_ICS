@@ -1,3 +1,5 @@
+package com.infinite.code;
+
 class Tester {
     public static void main(String[] args) {
         int year = 1900;

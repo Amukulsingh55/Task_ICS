@@ -1,3 +1,5 @@
+package com.infinite.code;
+
 public class RelativeComparision {
     public static void main(String[] args) {
                 int pizzaPrice=1500;

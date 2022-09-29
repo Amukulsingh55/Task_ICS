@@ -1,3 +1,5 @@
+package com.infinite.code;
+
 public class Compare {
     public static void main(String[] args){
         int i=9;

@@ -1,3 +1,5 @@
+package com.infinite.code;
+
 public class ForLoopExample {
     public static void main(String[] args) {
 //        loop-> start point, End point, increment/decrement
@@ -34,7 +36,7 @@ public class ForLoopExample {
 
     }
 
-    void MultiDimensionArray(){
+    public void MultiDimensionArray(){
         int arr[][]={{1,2,3,5},
                 {5,6,7},
                 {6,7,5,4,3},

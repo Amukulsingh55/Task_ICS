@@ -1,3 +1,5 @@
+package com.infinite.code;
+
 public class TemparatureChange {
     public static void main(String[] args) {
         //Premitive -- int, float, char, boolean, byte, short,long, double

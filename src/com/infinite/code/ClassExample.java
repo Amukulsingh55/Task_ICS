@@ -1,3 +1,5 @@
+package com.infinite.code;
+
 public class ClassExample {
     int a;
     int b;
