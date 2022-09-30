@@ -53,6 +53,5 @@ public class Items{
         ans.setCostPerDay(costPerDay);
         ans.setDeposit(deposit);
         ans.display();
-
     }
 }
