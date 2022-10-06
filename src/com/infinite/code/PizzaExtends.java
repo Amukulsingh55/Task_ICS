@@ -32,7 +32,7 @@ class Foodie{
     }
     public void calculatePtotalPrice(Pizza[] pizzaList){
         for(Pizza pizza:pizzaList){
-            totalPrice+=pizza.price+pizza.quantity;
+            totalPrice+=pizza.price*pizza.quantity;
         }
     }
 
@@ -134,5 +134,5 @@ public class PizzaExtends {
         UltraFoodie ultraFoodie = new UltraFoodie(3, "Eddie", "London", 7432256735l, 9);
         ultraFoodie.calculateTotalPriceWithRewardPoints(pizzaList1);
         System.out.println("Total cost for UltraFoodie "+ultraFoodie.getfName()+": "+ultraFoodie.getTotalPrice()+" with Reward Points: "+ultraFoodie.getRewardPoints());
-    }
+   }
 }
