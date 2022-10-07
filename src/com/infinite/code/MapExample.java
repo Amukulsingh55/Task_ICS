@@ -1,6 +1,4 @@
 package com.infinite.code;
-
-
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
@@ -53,6 +51,7 @@ public class MapExample{
         //Uncomment the code given below, execute and observe the output
         //books.remove("Let Us C", 50);
         System.out.println(books);
+
         //Replacing key-value pair in the map
         books.replace("Operating System", 80, 100);
         System.out.println(books);

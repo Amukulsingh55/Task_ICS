@@ -90,6 +90,7 @@ class User implements Comparable<User> {
         System.out.println("==="+userList);
         // creating user set from list
         Set<User> userSet = new LinkedHashSet<User>();
+
         userSet.addAll(userList);
         System.out.println("===============================");
         //printing all users
