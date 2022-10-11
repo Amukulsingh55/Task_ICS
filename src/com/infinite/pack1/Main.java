@@ -107,22 +107,21 @@ public class Main {
         Scanner sc=new Scanner(System.in);
         Donor d1=new Donor();
         System.out.println("Enter the Name : ");
-        d1.setName(sc.next());
+        d1.setName(sc.nextLine());
         System.out.println("Date Of Birth : ");
-        d1.setDateOfBirth(sc.next());
+        d1.setDateOfBirth(sc.nextLine());
         System.out.println("Enter Gender :");
-        d1.setGender(sc.next());
+        d1.setGender(sc.nextLine());
         System.out.println("Enter Mobile Number :");
-        d1.setMobileNumber(sc.next());
+        d1.setMobileNumber(sc.nextLine());
         System.out.println("Enter Blood Group :");
-        d1.setBloodGroup(sc.next());
+        d1.setBloodGroup(sc.nextLine());
         System.out.println("Enter Blood Bank Name :");
-        d1.setBloodBankName(sc.next());
+        d1.setBloodBankName(sc.nextLine());
         System.out.println("Enter Donor Type :");
-        d1.setDonorType(sc.next());
+        d1.setDonorType(sc.nextLine());
         System.out.println("Enter Donation Date :");
-        d1.setDonationDate(sc.next());
-        d1.setDonationDate(sc.next());
+        d1.setDonationDate(sc.nextLine());
 
         //call display donation
         d1.displayDonationDetails();
