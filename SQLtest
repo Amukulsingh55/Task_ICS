@@ -1,0 +1,34 @@
+create database test;
+create table Worker(
+  worker_ID int not null,
+  firstName varchar(200),
+  lastName varchar(200),
+  salary int not null,
+  joining_Date varchar(200),
+  department varchar(200),
+  primary key(worker_ID)
+);
+
+insert into Worker values(001,'Monika','Arora',100000,'2014-02-20 09:00:00','HR');
+select * from Worker;
+insert into Worker values(002,'Niharika','Verma',80000,'2014-06-11 09:00:00','Admin');
+insert into Worker values(003,'Vishal','Singhal',300000,'2014-02-20 09:00:00','HR');
+insert into Worker values(004,'Amitabh','Singh',500000,'2014-02-20 09:00:00','Admin');
+insert into Worker values(005,'Vivek','Bhati',500000,'2014-06-11 09:00:00','Admin');
+insert into Worker values(006,'Vipul','Diwan',200000,'2014-06-11 09:00:00','Account');
+insert into Worker values(007,'Satish','Kumar',75000,'2014-01-20 09:00:00','Account');
+insert into Worker values(008,'Geetika','Chauhan',90000,'2014-04-11 09:00:00','Admin');
+
+
+
+
+select replace(firstName,'a','A') from Worker;
+select concat(firstName,' ',lastName) as complete_Name from Worker;
+select * from Worker  order by firstName asc,department desc;
+select * from Worker where department='Admin';
+select * from Worker where firstName in ('Vipul','Satish');
+select * from Worker where firstName like '%a';
+select * from Worker where firstName like '_____h';
+select firstName as worker_name from Worker;
+Select upper(firstName) from Worker;
+select * from worker where salary between 100000 and 500000;
