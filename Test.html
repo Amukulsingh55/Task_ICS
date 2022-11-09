@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="">
+        <table style="width:100%">
+            <tr>
+                <th colspan="2">XYZ Online delivery</th>
+            </tr>
+            <tr>
+                <th colspan="2">Personal Details</th>
+            </tr>
+            <tr>
+                <td><label>First Name</label></td>
+                <td><input required type="text" style="width:70%;"></td>
+
+            </tr>
+            <tr>
+                <td><label>Phone Number</label></td>
+                <td><input required type="number" style="width: 70%;"></td>
+
+            </tr>
+            <tr>
+                <th colspan="2">Order Preference</th>
+            </tr>
+            <tr>
+                <td>Size</td>
+                <td colspan="2">
+                    <input required type="radio" name="size">
+                    <label for="">Small</label>
+                    <input required type="radio" name="size">
+                    <label for="">Medium</label>
+                    <input required type="radio" name="size">
+                    <label for="">Large</label>
+                </td>
+
+            </tr>
+            <tr>
+                <td><label for="">Base</label></td>
+                <td>
+                    <select  required name="Base" id="" name="size">
+                        <option value="">Pan Pizza</option>
+                        <option value="">Chise Crust</option>
+                        <option value="">Chicken Stuff Crust</option>
+                    </select>
+                </td>
+            <tr>
+                <td><label for="">Toppings</label></td>
+                <td colspan="2">
+                    <input type="checkbox"  name="cheese" value="cheese">
+                    <label for="vehicle1">Cheese</label>
+                    <input type="checkbox" name="Olives" value="Olives">
+                    <label for="vehicle2">Olives</label>
+                    <input type="checkbox" name="Tomatos" value="Tomatos">
+                    <label for="vehicle3">Tomatos</label>
+                    <input type="checkbox"  name="Capsicum" value="Capsicum">
+                    <label for="vehicle1">Capsicum</label>
+                    <input type="checkbox"  name="Jalapenos" value="Jalapenos">
+                    <label for="vehicle2">Jalapenos</label>
+                    <input type="checkbox"  name="Mushrooms" value="Mushrooms">
+                    <label for="vehicle3">Mushrooms</label>
+                    <input type="checkbox"  name="Pepperroni" value="Pepperroni">
+                    <label for="vehicle3">Mushrooms</label>
+                    <input type="checkbox"  name="Onion" value="Onion">
+                    <label for="vehicle3">Onion</label>
+                </td>
+
+            </tr>
+            <tr>
+               <td><label for="">Additional Details</label></td>
+                <td><textarea required name="Address" id="" cols="30" rows="2"></textarea><td>
+            </tr>
+            <tr>
+                <th colspan="3">Confirm details and proceed to pay
+                    <input type="radio" name="size">
+                    <label for="">Yes</label>
+                    <input type="radio" name="size">
+                    <label for="">No</label>
+                </th>
+            </tr>
+            <th colspan="3"><input required type="submit"></th>
+        </table>
+    </form>
+</body>
+
+</html>
