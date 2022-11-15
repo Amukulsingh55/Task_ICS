@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            text-align: center;
+            height: 150px;
+
+            width: 500px;
+
+            border: 1px solid #CEE2FA;
+
+            text-align: left;
+
+            color: #08438E;
+
+            font-family: calibri;
+
+            font-size: 20;
+
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+      <div class="container">
+    <script>
+        class Person {
+            constructor(name, age) {
+
+                this.name = name;
+                this.age = age;
+            }
+
+        }
+
+        class Employee extends Person {
+            constructor(name, age, role, contact) {
+                super(name, age);
+                this.role = role;
+                this.contact = contact;
+            }
+            getDetails() {
+                document.write("The details of employee are: ");
+                document.write("</br>");
+                document.write("</br>");
+                document.write("</br>");
+                document.write("Name : " + `${this.name}`);
+                document.write("</br>");
+                document.write("Age : " + `${this.age}`);
+                document.write("</br>");
+                document.write("Role : " + `${this.role}`);
+                document.write("</br>");
+                document.write("Phone : " + `${this.contact}`);
+
+            }
+        }
+
+        let emp = new Employee("Mukul Singh", "24", "associate software enginner", "7258024287");
+        emp.getDetails();
+    </script>
+
+    </div>
+</body>
+
+</html>
