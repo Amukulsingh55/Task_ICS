@@ -41,7 +41,7 @@ user:any=[
       });
       return;
     }
-     if(this.loginData.username.trim()!=this.user.username.trim()){
+     if(this.loginData.username!=this.user.username){
       this.snack.open('Invalid Username','ok',{
         duration:3000,
         verticalPosition:'top',
