@@ -1,0 +1,9 @@
+.back-ground{
+    text-align: center;
+    margin: 15px;
+    width: 50%;
+}
+.text-center{
+    background-color: blue;
+    text-decoration-color: white;
+}

@@ -1,0 +1,27 @@
+<mat-card class="back-ground">
+    
+    <h1 class="text-center" style="color: white;">Login Here</h1>
+    <!-- {{loginData | json}} -->
+    <!-- username field -->
+    <form (ngSubmit)="formSubmit()">
+
+        <mat-form-field class="full-width" appearance="outline">
+            <mat-label>Username</mat-label>
+            <input [(ngModel)]="loginData.username" required name="username" matInput
+                placeholder="Enter here">
+            <mat-hint style="color: red;">Username is required!!</mat-hint>
+        </mat-form-field>
+        <br/>
+        <!-- password field -->
+        <mat-form-field class="full-width" appearance="outline">
+            <mat-label>User password</mat-label>
+            <input [(ngModel)]="loginData.password" required="Password is required" name="password" type="password" matInput
+                placeholder="Enter here">
+                <mat-hint style="color: red;">Password is required!!</mat-hint>
+            </mat-form-field>
+        <div class="container text-center">
+            <button mat-raised-button color="accent" type="submit">Login</button>
+            
+        </div>
+    </form>
+</mat-card>
